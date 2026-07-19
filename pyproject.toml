@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiersplit"
+version = "0.1.0"
+description = "Minimal reproduction code for hierarchical split learning in traffic forecasting"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+  {name = "Taeyoung Yu"},
+  {name = "Jiwon Kim"},
+  {name = "Junyoung Byun"},
+]
+dependencies = [
+  "numpy>=1.24,<2.0",
+  "torch>=2.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

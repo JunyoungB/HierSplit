@@ -1,0 +1,9 @@
+HierSplit
+Copyright 2026 Taeyoung Yu, Jiwon Kim, and Junyoung Byun
+
+This distribution contains model components adapted from BasicTS, which is
+licensed under the Apache License 2.0:
+https://github.com/GestaltCogTeam/BasicTS
+
+The STAEformer and STGCN backbone implementations were reduced and reorganized
+from their BasicTS counterparts. Modified files carry an attribution notice.
