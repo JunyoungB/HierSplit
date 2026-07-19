@@ -3,6 +3,9 @@
 Implementation of **Communication-Efficient Federated Traffic Prediction via
 Hierarchical Split Learning**.
 
+Published in *IEEE Transactions on Intelligent Transportation Systems* (Early
+Access): [IEEE Xplore](https://ieeexplore.ieee.org/document/11595227).
+
 The repository provides the paper's core experimental setup:
 
 | Backbones | Training paradigms | Partitions | Datasets |
